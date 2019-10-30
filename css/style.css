@@ -45,9 +45,9 @@ h1 {
 
 p {
   font-family: "Raleway", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
-
+/* Navigation section */
 .nav {
   background-color: #465f3e;
   color: #f0f1db;
@@ -63,9 +63,19 @@ p {
   justify-content: space-around;
 }
 
-.gallery {
+/* Team section: gallery and content */
+
+#team {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.gallery__portrait {
-  border-radius: 50%;
+figure img {
+  width: 100px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
 }
