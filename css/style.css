@@ -1,0 +1,36 @@
+/* Colour palette:
+cream: #f0f1db;
+dark-green: #465f3e;
+black: #000000
+light-green: #9cd46c
+
+
+ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0f1db;
+  color: #000000;
+}
+
+h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 4rem;
+  color: #465f3e;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.gallery {
+}
+
+.gallery__portrait {
+  border-radius: 50%;
+}
