@@ -28,6 +28,20 @@ p {
   margin-right: 25%;
 }
 
+.contact-us {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact-flex {
+ flex: 1;
+}
+
+.contact-submit-flex {
+  flex: 1;
+}
 .gallery {
 }
 
