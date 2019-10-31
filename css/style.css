@@ -128,17 +128,21 @@ figcaption {
 
 .contact-us {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   font-family: "Raleway", sans-serif;
 }
 
 .contact-flex {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .contact-submit-flex {
-  flex: 1;
+  width: 7rem;
+  margin: 0 auto;
 }
 
 figure img {
@@ -151,4 +155,19 @@ figure img {
 .profile {
   display: flex;
   flex-direction: column;
+}
+
+.input-change {
+  border-style: solid;
+  border-color: green;
+  border-width: thin;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.submit-change {
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(-90deg, brown, green);
 }
