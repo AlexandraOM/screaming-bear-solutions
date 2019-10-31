@@ -54,12 +54,10 @@ p {
 /* Navigation section */
 .nav {
   background-color: #465f3e;
-  /* color: #f0f1db;
-  font-family: "Staatliches", cursive;
-  font-size: 1.8rem; */
   padding: 10px 0px;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .nav__navlist {
@@ -79,12 +77,13 @@ p {
 a {
   opacity: 0.8;
   padding: 0.3em 0.5em;
+  transition: 0.4s;
 }
 
 a:hover {
   opacity: 1;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.4;
 }
 
 /* Team section: gallery and content */
@@ -93,7 +92,39 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
 }
+
+.babyPortrait {
+  border-radius: 50%;
+  width: 8rem;
+}
+
+figure {
+  text-align: center;
+  padding: 1rem;
+}
+
+figcaption {
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+.iconContainer {
+  text-align: center;
+  z-index: 50;
+}
+
+.profile__icon {
+  padding: 0.5rem;
+}
+
+.profile__icon-image {
+  width: 2rem;
+}
+
+/* Contact us section */
 
 .contact-us {
   display: flex;
