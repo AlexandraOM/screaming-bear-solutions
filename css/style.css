@@ -171,3 +171,13 @@ figure img {
   color: white;
   background: linear-gradient(-90deg, brown, green);
 }
+
+.home-button-layout {
+  width: 100%;
+}
+
+.footer-changes {
+  text-align: center;
+  margin: 1rem;
+  background-color: rgb(83,105,33);
+}
