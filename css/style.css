@@ -71,8 +71,26 @@ p {
   justify-content: space-around;
 }
 
+.contact-us {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact-flex {
+ flex: 1;
+}
+
+.contact-submit-flex {
+  flex: 1;
+}
+
 figure img {
   width: 100px;
+}
+
+.gallery {
 }
 
 .profile {
