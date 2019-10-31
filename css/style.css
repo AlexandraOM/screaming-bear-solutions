@@ -29,8 +29,17 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 50vh;
+  height: 60vh;
+  width: 100vw;
   justify-content: center;
+  background-image: url("../img/brownbear.jpg");
+  background-size: cover;
+}
+
+.floating-box {
+  background-color: white;
+  opacity: 0.8;
+  padding: 1rem;
 }
 
 section {
@@ -248,36 +257,35 @@ footer > p {
   }
 
   .contact-flex {
-      flex-direction: row;
-      justify-content: center;
-      margin-top:1rem;
-    }
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+  }
 
-    .input-change {
-      border-style: solid;
-      border-color: green;
-      border-width: 3px;
-      margin-top: 0rem;
-      width: 300px;
-      margin-left: 0.5rem;
-    }
+  .input-change {
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+    margin-top: 0rem;
+    width: 300px;
+    margin-left: 0.5rem;
+  }
 
-label {
-  width: 300px;
-  text-align: right;
-  margin-right: 0.5rem;
-}
+  label {
+    width: 300px;
+    text-align: right;
+    margin-right: 0.5rem;
+  }
 
-section {
-  height: 500px;
-  padding: 2rem;
-}
-.submit-change {
-  font-size: 2rem;
-  margin-top: 1rem;
-}
-form {
-  padding-right: 4rem;
-}
-
+  section {
+    height: 500px;
+    padding: 2rem;
+  }
+  .submit-change {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  form {
+    padding-right: 4rem;
+  }
 }
