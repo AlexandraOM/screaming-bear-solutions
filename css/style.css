@@ -20,6 +20,7 @@ html {
 body {
   background-color: #f0f1db;
   color: #000000;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -43,17 +44,22 @@ h1 {
   color: #465f3e;
 }
 
+h2 {
+  font-family: "Staatliches", cursive;
+}
+
 p {
-  font-family: "Raleway", sans-serif;
   font-size: 1rem;
 }
 /* Navigation section */
 .nav {
   background-color: #465f3e;
-  color: #f0f1db;
+  /* color: #f0f1db;
   font-family: "Staatliches", cursive;
-  font-size: 1.8rem;
+  font-size: 1.8rem; */
   padding: 10px 0px;
+  position: sticky;
+  top: 0;
 }
 
 .nav__navlist {
@@ -61,6 +67,24 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.nav a {
+  font-family: "Staatliches", cursive;
+  font-size: 1.8rem;
+  color: #f0f1db;
+  text-decoration: none;
+}
+
+a {
+  opacity: 0.8;
+  padding: 0.3em 0.5em;
+}
+
+a:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 /* Team section: gallery and content */
