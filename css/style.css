@@ -20,6 +20,7 @@ html {
 body {
   background-color: #f0f1db;
   color: #000000;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -43,8 +44,11 @@ h1 {
   color: #465f3e;
 }
 
+h2 {
+  font-family: "Staatliches", cursive;
+}
+
 p {
-  font-family: "Raleway", sans-serif;
   font-size: 1rem;
 }
 /* Navigation section */
@@ -79,7 +83,7 @@ p {
 }
 
 .contact-flex {
- flex: 1;
+  flex: 1;
 }
 
 .contact-submit-flex {
