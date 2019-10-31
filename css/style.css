@@ -201,9 +201,44 @@ figure img {
 
   h2 {
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
   header p {
     font-size: 1.5rem;
+  }
+
+  .contact-flex {
+      flex-direction: row;
+      justify-content: center;
+      margin-top:1rem;
+    }
+
+    .input-change {
+      border-style: solid;
+      border-color: green;
+      border-width: 3px;
+      margin-top: 0rem;
+      width: 300px;
+      margin-left: 0.5rem;
+    }
+
+label {
+  width: 300px;
+  text-align: right;
+  margin-right: 0.5rem;
+}
+
+section {
+  height: 500px;
+  padding: 2rem;
+}
+.submit-change {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+form {
+  padding-right: 4rem;
+}
   }
 }
