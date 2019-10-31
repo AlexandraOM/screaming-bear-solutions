@@ -170,3 +170,13 @@ figure img {
   color: #f0f1db;
   background-color: #465f3e;
 }
+
+.home-button-layout {
+  width: 100%;
+}
+
+.footer-changes {
+  text-align: center;
+  margin: 1rem;
+  background-color: rgb(83,105,33);
+}
