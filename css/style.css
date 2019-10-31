@@ -154,7 +154,7 @@ figure img {
 .profile {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 90vw;
 }
 
 .input-change {
@@ -265,7 +265,7 @@ label {
 
 section {
   height: 500px;
-  padding: 2rem;
+  padding-top: 3.5rem;
 }
 .submit-change {
   font-size: 2rem;
