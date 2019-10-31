@@ -176,8 +176,42 @@ figure img {
   width: 100%;
 }
 
-.footer-changes {
+footer {
+  margin: 2rem;
   text-align: center;
-  margin: 1rem;
-  background-color: rgb(83,105,33);
+}
+
+footer > p {
+  font-size: 0.7rem;
+}
+
+.homeButton {
+  position: fixed;
+  bottom: 0;
+  height: 1.5rem;
+  width: 100vw;
+  text-align: center;
+  background-color: #465f3e;
+  color: #f0f1db;
+  font-weight: 700;
+  z-index: 100;
+  /* opacity: 0; */
+  display: none;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.homeButton > a {
+  color: #f0f1db;
+  padding: 0 45%;
+  text-decoration: none;
+  z-index: 100;
 }
