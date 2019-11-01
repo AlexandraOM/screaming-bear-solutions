@@ -161,9 +161,6 @@ figure img {
   width: 100px;
 }
 
-.gallery {
-}
-
 .profile {
   display: flex;
   flex-direction: column;
@@ -265,11 +262,6 @@ footer > p {
     margin-top: 1rem;
   }
 
-section {
-  height: 500px;
-  scroll-padding-top:;
-}
-
 .submit-change {
   font-size: 2rem;
   margin-top: 1rem;
@@ -295,8 +287,9 @@ form {
 
   section {
     height: 500px;
-    padding: 2rem;
+    padding: 3.5rem;
   }
+
   .submit-change {
     font-size: 2rem;
     margin-top: 1rem;
