@@ -60,6 +60,10 @@ h2 {
 p {
   font-size: 1rem;
 }
+
+.story {
+  margin: 2rem 2rem;
+}
 /* Navigation section */
 .nav {
   background-color: #465f3e;
@@ -264,8 +268,9 @@ footer > p {
 
 section {
   height: 500px;
-  padding-top: 3.5rem;
+  scroll-padding-top:;
 }
+
 .submit-change {
   font-size: 2rem;
   margin-top: 1rem;
