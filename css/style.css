@@ -30,7 +30,7 @@ header {
   align-items: center;
   text-align: center;
   height: 60vh;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   background-image: url("../img/brownbear.jpg");
   background-size: cover;
@@ -167,7 +167,7 @@ figure img {
 .profile {
   display: flex;
   flex-direction: column;
-  width: 90vw;
+  width: 100%;
 }
 
 .input-change {
@@ -206,7 +206,7 @@ footer > p {
   position: fixed;
   bottom: 0;
   height: 2rem;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   background-color: #465f3e;
   color: #f0f1db;
