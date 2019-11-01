@@ -161,9 +161,6 @@ figure img {
   width: 100px;
 }
 
-.gallery {
-}
-
 .profile {
   display: flex;
   flex-direction: column;
@@ -212,7 +209,6 @@ footer > p {
   color: #f0f1db;
   font-weight: 700;
   z-index: 100;
-  /* opacity: 0; */
   display: none;
   animation: fadeIn 0.3s ease-in;
 }
@@ -273,11 +269,6 @@ footer > p {
     margin-top: 1rem;
   }
 
-  section {
-    height: 500px;
-    padding-top: 3.5rem;
-  }
-
   .submit-change {
     font-size: 2rem;
     margin-top: 1rem;
@@ -304,8 +295,9 @@ footer > p {
 
   section {
     height: 500px;
-    padding: 2rem;
+    padding: 3.5rem;
   }
+
   .submit-change {
     font-size: 2rem;
     margin-top: 1rem;
