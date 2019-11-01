@@ -59,6 +59,9 @@ h2 {
 
 p {
   font-size: 1rem;
+  margin: auto;
+  line-height: 1.4rem;
+  padding: 1rem;
 }
 
 .story {
@@ -250,6 +253,7 @@ footer > p {
   h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
+    margin-left: 5rem;
   }
 
   header p {
@@ -258,7 +262,6 @@ footer > p {
 
   p {
     max-width: 60vw;
-    margin: auto;
     font-size: 1.15rem;
     line-height: 1.55rem;
   }
@@ -294,7 +297,7 @@ footer > p {
   }
 
   section {
-    height: 500px;
+    min-height: 550px;
     padding: 3.5rem;
   }
 
