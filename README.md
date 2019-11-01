@@ -1,7 +1,9 @@
 # screaming-bear-solutions 
 Alex, Gillian, Kin, and Reggie's Epic :bear: Project (group AJNP)
 
-<img src="./img/bear.png" width="100">
+
+# Hi from group AJNP!
+![waving bear](http://giphygifs.s3.amazonaws.com/media/kNGHx5m4QPra0/giphy.gif)
 
 ## WHY
 To practise working in a team, using pair programming and github workflow
@@ -49,3 +51,5 @@ We are proud of our site but with more time we could add/fix some features, such
 * increased screen reader functionality
 * building out proper form behaviour
 * improve use of BEM naming convention (we set out with the best intentions....)
+
+![dancing bear](http://giphygifs.s3.amazonaws.com/media/5p8QuXUTk1rIk/giphy.gif)
