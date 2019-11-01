@@ -267,15 +267,12 @@ footer > p {
     flex-direction: row;
     justify-content: center;
     margin-top: 1rem;
+    padding-right:13rem;
   }
 
   .submit-change {
     font-size: 2rem;
     margin-top: 1rem;
-  }
-
-  form {
-    padding-right: 4rem;
   }
 
   .input-change {
@@ -302,7 +299,5 @@ footer > p {
     font-size: 2rem;
     margin-top: 1rem;
   }
-  form {
-    padding-right: 4rem;
-  }
+
 }
