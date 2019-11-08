@@ -5,6 +5,17 @@ Alex, Gillian, Kin, and Reggie's Epic :bear: Project (group AJNP)
 # Hi from group AJNP!
 ![waving bear](http://giphygifs.s3.amazonaws.com/media/kNGHx5m4QPra0/giphy.gif)
 
+#
+To start the project on your computer, you need to:
+
+Clone the repository :
+git clone https://github.com/fac-17/ABCD-week2-project.git
+Install NPM :
+npm install
+Use NPM to install TAPE on your computer and work through the test file: npm i -D tape and npm i -D tap-spec
+Then, to run the test :
+npm test
+
 ## WHY
 To practise working in a team, using pair programming and github workflow
 
